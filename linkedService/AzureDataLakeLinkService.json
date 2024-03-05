@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeLinkService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://databricstorageaccount.dfs.core.windows.net/"
+		}
+	}
+}
